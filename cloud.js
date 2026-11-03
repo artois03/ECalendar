@@ -38,7 +38,7 @@ if(!config?.apiKey||config.apiKey.includes('PASTE_')||!config.projectId||config.
     if(mine!==generation)return;
     if(!snap.exists()){
       // Нов акаунт = празен календар. Никакви вградени потребителски данни.
-      await setDoc(ref,{version:3,events:[],missing:[]});
+      await setDoc(ref,{version:4,events:[],missing:[],subjects:[],tasks:[]});
       if(mine!==generation)return;
       snap=await getDoc(ref);
     }
