@@ -1,6 +1,6 @@
 {
-  "name": "Изпитен календар",
-  "short_name": "Изпити",
+  "name": "ECalendar",
+  "short_name": "ECalendar",
   "description": "Личен календар с изпити и синхронизация",
   "start_url": "./",
   "scope": "./",
